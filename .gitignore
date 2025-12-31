@@ -1,0 +1,6 @@
+.env
+__pycache__/
+*.log
+admin_inbox.eml
+security_log.txt
+venv/
