@@ -48,7 +48,7 @@ async def run_attack_sim():
                 print("\n[✓] Tüm saldırı vektörleri gönderildi. Dashboard'u kontrol edin.")
 
     except Exception as e:
-        print(f"\n[!] BAGLANTI HATASI: {e}")
+        print(f"\n[!] : {e}")
         print("[?] İpucu: 'sentinel_gateway.py' dosyasının bu dosya ile aynı klasörde olduğundan emin olun.")
 
 if __name__ == "__main__":
